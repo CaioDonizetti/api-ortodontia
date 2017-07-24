@@ -1,14 +1,12 @@
 {
-  "author": "Glaucia Lemos",
+  "author": "Grupo 2 PS",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "Tutorial - Desenvolvendo uma Aplicação RESTful API - Node.Js &amp;amp;amp;amp;amp; Express com MongoDb",
+  "description": "Site para congresso de ortodontia.",
   "name": "node-api",
   "main": "server.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "~1.0.1",
     "express": "~4.0.0",
     "mongoose": "*",
